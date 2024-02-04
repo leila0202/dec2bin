@@ -11,6 +11,8 @@ const countdown = (number) => {
   }
 };
 
+countdown(3);
+
 const decimalToBinary = (input) => {
   let binary = "";
   if (input === 0) {
