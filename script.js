@@ -17,6 +17,8 @@ const checkUserInput = () => {
     alert("Please provide a decimal number");
     return;
   }
+  if (parseInt(numberInput.value) === 5) {
+  }
   result.textContent = decimalToBinary(parseInt(numberInput.value));
   numberInput.value = "";
 };
