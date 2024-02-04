@@ -1,4 +1,7 @@
-const callStack = ['a(): returns "freeCodeCamp " + b()'];
+const callStack = [
+  'a(): returns "freeCodeCamp " + b()',
+  'b(): returns "is " + c()',
+];
 
 const a = () => {
   return "freeCodeCamp" + b();
