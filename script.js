@@ -29,7 +29,9 @@ const decimalToBinary = (input) => {
   }
 };
 
-const showAnimation = () => {};
+const showAnimation = () => {
+  result.innerText = "Call Stack Animation";
+};
 
 const checkUserInput = () => {
   const inputInt = parseInt(numberInput.value);
