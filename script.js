@@ -2,7 +2,11 @@ const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
-const decimalToBinary = (input) => {};
+const decimalToBinary = (input) => {
+  if (input === 0) {
+    return "";
+  }
+};
 
 const checkUserInput = () => {
   if (!numberInput.value || isNaN(parseInt(numberInput.value))) {
