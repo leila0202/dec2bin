@@ -46,6 +46,7 @@ const showAnimation = () => {
       <p id="${obj.inputVal}" style="margin-top:${obj.marginTop}px;" class="animation-frame">decimalToBinary(${obj.inputVal})</p>
       `;
     }, obj.addElDelay);
+    setTimeout(() => {}, obj.showMsgDelay);
   });
 };
 
